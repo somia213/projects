@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Secular One', sans-serif;
+}
+#mainSec{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ea7b0
+}
+.allCard{
+    display:flex;
+    justify-content: center
+}
+img{
+    height:75%
+}

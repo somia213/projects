@@ -1,0 +1,90 @@
+
+  .header {
+    background-color:#888;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  .addText {
+    background: #98e9ba;
+    width: fit-content;
+    margin: 1px 8px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.6s all;
+}
+.deleteText, .xEdit {
+    background: #cf6f6f;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.6s all;
+    margin: 0 5px;
+}
+.xEdit{
+    background: #98e9ba;
+}
+.addText:hover{
+    background-color: #6cbd8d;
+}
+.deleteText:hover {
+    background-color: #f55959;
+}
+.xEdit:hover {
+    background-color: #6cbd8d;
+}
+
+.form2 {
+    width: 95%;
+    background-color: #FFF;
+    color: #000;
+    max-height: 60vh;
+    overflow-y: scroll;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+li {
+    padding: 2vh;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000000;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    width: 50%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: contents;
+}
+.xDiv {
+    display: flex;
+    justify-content: center;
+}
+.active{
+    background-color: #78b894;
+}

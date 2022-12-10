@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Secular One', sans-serif;
+}
+#mainSec{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ea7b0
+}
+.form1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.task{
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+.mainInput {
+    padding: 15px;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 5px solid #FFf;
+    color: #FFF;
+}
+.addText {
+    background: #98e9ba;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.6s all;
+}
+.deleteText, .xEdit {
+    background: #cf6f6f;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.6s all;
+    margin: 0 5px;
+}
+.xEdit{
+    background: #98e9ba;
+}
+.addText:hover{
+    background-color: #6cbd8d;
+}
+.deleteText:hover {
+    background-color: #f55959;
+}
+.xEdit:hover {
+    background-color: #6cbd8d;
+}
+.form2 {
+    width: 95%;
+    background-color: #FFF;
+    color: #000;
+    max-height: 60vh;
+    overflow-y: scroll;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+li {
+    padding: 2vh;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000000;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    width: 50%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: contents;
+}
+.xDiv {
+    display: flex;
+    justify-content: center;
+}
+.active{
+    background-color:#78b894;
+}
